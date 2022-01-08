@@ -1,4 +1,3 @@
 # sharksinsuits
-EVOLUTION 2021-22
-WebCENTRIC Website Development Competition
-Topic: Online Gaming Store
+Submission for WebCENTRIC at EVOLUTION 2021-22 for the topic "Online Gaming Store"
+Created and submitted by Aditya Swami and Arunav Ganguly
