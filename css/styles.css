@@ -1,0 +1,32 @@
+/* header > .container {
+    display: flex;
+    align-items: baseline;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    transition: all 0.2s ease;
+} */
+
+body {
+    transition: background 0.2s linear;
+}
+
+body.dark-mode{
+    background-color: black;
+    filter: invert(1) hue-rotate(-180deg);
+}
+
+body.dark-mode .nes-icon, body.dark-mode img{
+    filter: invert(1) hue-rotate(-180deg);
+}
+
+header{
+    z-index: 50; 
+    position: fixed; 
+    background-color: #d7dadf;
+}
+
+footer {
+    z-index: 49;
+    margin-top: 10%;
+}
