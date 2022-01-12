@@ -16,7 +16,7 @@ body.dark-mode{
     filter: invert(1) hue-rotate(-180deg);
 }
 
-body.dark-mode .nes-icon, body.dark-mode img{
+body.dark-mode .nes-icon, body.dark-mode iframe{
     filter: invert(1) hue-rotate(-180deg);
 }
 
@@ -30,3 +30,14 @@ footer {
     z-index: 49;
     margin-top: 10%;
 }
+
+a.nounderline:hover {
+    text-decoration: none;
+}
+
+/* #banner {
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20%;
+    scale: 5;
+} */
