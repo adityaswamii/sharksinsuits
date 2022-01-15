@@ -14,8 +14,6 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -30,9 +28,9 @@
   <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
 
 </head>
-<body class="">
+<body class="collapse">
 
-  <header class="u-full-width">
+  <header class="u-full-width" style="position: fixed;">
     <div class="row nes-container" style="padding: 10px; padding-bottom: 0px;">
 
       <div class="nine columns">
@@ -43,7 +41,11 @@
         </a>
       </div>
       <div class="three columns">
-        <br>
+        <label class="nes-pointer">
+          <input type="checkbox" class="nes-checkbox" id="sidebar-checkbox">
+          <span>Sidebar</span>
+        </label>
+        <!-- <br> -->
         <label class="nes-pointer">
           <input type="checkbox" class="nes-checkbox" id="dark-mode-checkbox">
           <span>DarkMode</span>
@@ -54,6 +56,16 @@
   </header>
 
   <main id="home">
+
+    <section id="sidebar" class="container">
+
+      <div class="">
+        <h2 class="nes-pointer">
+          <i class="nes-icon coin is-medium"></i><span style="padding-left: 2px; color: white;">SPAWNPOINT</span>
+        </h2>
+      </div>
+      
+    </section>
     
     <br><br><br><br>
     <section id="carousel" class="container">
@@ -89,7 +101,7 @@
     </div> -->
 
     <br><br><br>
-    <div class="container">
+    <section id="content" class="container">
       
       <p>The excitement of booting up a game you've always wanted to play. The rush of clicking on 'New Game'. The thrill of escaping from reality and living as a character that is entirely your own. The peace and satisfaction on seeing the end game credits.</p>
       <br><br><br>
@@ -132,7 +144,6 @@
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
   <script src="js/script.js"></script>
 
 </body>

@@ -1,13 +1,25 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-//DARK-MODE
+// DARK-MODE
 
     const checkbox= document.getElementById('dark-mode-checkbox');
 
     checkbox.addEventListener('change', () => {
         document.body.classList.toggle('dark-mode');
     });
+
+
+// SIDEBAR
+
+    const sidebar= document.getElementById('sidebar-checkbox');
+
+    sidebar.addEventListener('change', () => {
+        document.body.classList.toggle('collapse');
+    });
+
+    
+
 
     
 // CAROUSEL
@@ -32,6 +44,4 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(showSlides, 4000);
     }
 
-
-    
 });
