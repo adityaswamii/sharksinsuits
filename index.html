@@ -28,7 +28,7 @@
   <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
 
 </head>
-<body class="collapse">
+<body class="">
 
   <header class="u-full-width" style="position: fixed;">
     <div class="row nes-container" style="padding: 10px; padding-bottom: 0px;">
@@ -57,13 +57,49 @@
 
   <main id="home">
 
-    <section id="sidebar" class="container">
+    <section id="sidebar" class="container collapse">
 
-      <div class="">
-        <h2 class="nes-pointer">
-          <i class="nes-icon coin is-medium"></i><span style="padding-left: 2px; color: white;">SPAWNPOINT</span>
-        </h2>
+      <h2 class="nes-pointer">
+        <i class="nes-icon coin is-medium"></i><span style="padding-left: 2px; color: white;">SPAWNPOINT</span>
+      </h2>
+      <br>
+      <div class="nes-balloon from-left u-pull-left">
+        <p>Where would you like to go next?</p>
       </div>
+      <br>
+      <div class="nes-container is-rounded is-dark u-cf" style="margin-top: 65%; width: 46.5rem;">
+
+        <strong class="nes-text is-error"> <!-- error and primary look good, change color w button -->
+          PICK AN OPTION:
+        </strong>
+        <br>
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" checked >
+          <span>Spawn (Homepage)</span>
+        </label>
+        <br>
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" >
+          <span>Shop- PC</span>
+        </label>
+        <br>
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" >
+          <span>Shop- Consoles</span>
+        </label>
+        <br>
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" >
+          <span>Shop- Accessories</span>
+        </label>
+        <br>
+        <label>
+          <input type="radio" class="nes-radio is-dark" name="answer-dark" >
+          <span>Shop- Games</span>
+        </label>
+
+      </div>
+
       
     </section>
     
@@ -93,6 +129,7 @@
       </div>
         
     </section>
+
     <!-- <p class="nes-balloon from-left" style="position: absolute; z-index: 10;">Shop for Gamers</p>-->
 
     <!-- <br><br><br>
@@ -134,7 +171,8 @@
       </section>
 
 
-    </div>
+    </section>
+
   </main>
   <footer class="u-full-width">
     <div class="nes-container is-dark is-centered">
@@ -142,7 +180,7 @@
     </div>
   </footer>
 
-  <!-- JS
+  <!-- JS (Linked at the end to speed up page loading)
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/script.js"></script>
 

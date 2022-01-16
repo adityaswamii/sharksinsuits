@@ -12,10 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // SIDEBAR
 
-    const sidebar= document.getElementById('sidebar-checkbox');
+    const sidebarbutton= document.getElementById('sidebar-checkbox');
+    const sideBar= document.getElementById('sidebar');
 
-    sidebar.addEventListener('change', () => {
-        document.body.classList.toggle('collapse');
+    sidebarbutton.addEventListener('change', () => {
+        sideBar.classList.toggle('collapse');
     });
 
     

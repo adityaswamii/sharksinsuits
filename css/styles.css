@@ -28,22 +28,19 @@ a.nounderline:hover {
   text-decoration: none;
 }
 
-body #sidebar {
+#sidebar {
   position: fixed;
-  z-index: 51;
+  z-index: 69;
   width: 50rem;
   height: 100%;
-  top: 0;
   padding: 2.1rem 1.2rem;
   background-color: #212529;
   border-right: 5px solid black;
-  transition: all 0.5s ease;
+  transition: all 0.2s linear;
 }
 
-body.collapse #sidebar {
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.2s ease;
+#sidebar.collapse {
+  transform: translate(-49rem);
 }
 
 #carousel {
