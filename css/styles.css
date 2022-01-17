@@ -12,6 +12,7 @@ body {
 } 
 
 .dark-mode .nes-icon,
+.dark-mode .nes-btn,
 .dark-mode img {
   filter: invert(1) hue-rotate(180deg);  
 }
@@ -148,6 +149,7 @@ a.nounderline:hover {
   width: 99%; 
   height: 69.69rem; 
   background-color: #212529;
+  font-size: 2.5rem;
 }
 #categories a {
   color: #212529;
