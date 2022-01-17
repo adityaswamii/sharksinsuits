@@ -34,22 +34,18 @@
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
   </head>
   <body class="">
-    <header class="u-full-width" style="position: fixed">
+    <header class="u-full-width">
       <div class="row nes-container" style="padding: 10px; padding-bottom: 0px">
         <div class="nine columns">
           <a class="nounderline" href="#home">
             <h2 class="nes-pointer">
-              <i class="nes-icon coin is-medium"></i
+              <i class="nes-icon coin is-medium" ></i
               ><span style="padding-left: 2px; color: black">SPAWNPOINT</span>
             </h2>
           </a>
         </div>
         <div class="three columns">
-          <label class="nes-pointer">
-            <input type="checkbox" class="nes-checkbox" id="sidebar-checkbox" />
-            <span>Sidebar</span>
-          </label>
-          <!-- <br> -->
+          <br>
           <label class="nes-pointer">
             <input
               type="checkbox"
@@ -65,7 +61,7 @@
     <main id="home">
       <section id="sidebar" class="container collapse">
         <h2 class="nes-pointer">
-          <i class="nes-icon coin is-medium"></i
+          <i class="nes-icon coin is-medium" style="font-size: 1rem;font-weight: 400;line-height: 1.5;"></i
           ><span style="padding-left: 2px; color: white">SPAWNPOINT</span>
         </h2>
 
@@ -79,7 +75,7 @@
           <img src="/images/button.png" width="75rem">
         </div>
 
-        <div class="nes-container is-rounded is-dark u-cf" style="margin-top: 65%; width: 46.5rem">
+        <div id="sidebar-options" class="nes-container is-rounded is-dark u-cf">
           <strong class="nes-text is-error">
             <!-- error and primary look good, change color w button -->
             PICK AN OPTION:
@@ -100,7 +96,7 @@
           </label>
           <br />
           <label>
-            <a class="nounderline" href="/html/shop1.html">
+            <a class="nounderline" href="/html/shop1.html" target="_blank">
               <input
                 type="radio"
                 class="nes-radio is-dark"
@@ -111,7 +107,7 @@
           </label>
           <br />
           <label
-            ><a class="nounderline" href="/html/shop2.html">
+            ><a class="nounderline" href="/html/shop2.html" target="_blank">
               <input
                 type="radio"
                 class="nes-radio is-dark"
@@ -122,7 +118,7 @@
           </label>
           <br />
           <label
-            ><a class="nounderline" href="/html/shop3.html">
+            ><a class="nounderline" href="/html/shop3.html" target="_blank">
               <input
                 type="radio"
                 class="nes-radio is-dark"
@@ -133,7 +129,7 @@
           </label>
           <br />
           <label
-            ><a class="nounderline" href="/html/shop4.html">
+            ><a class="nounderline" href="/html/shop4.html" target="_blank">
               <input
                 type="radio"
                 class="nes-radio is-dark"
@@ -151,7 +147,7 @@
 
       <br /><br /><br /><br />
       <section id="carousel" class="container">
-        <div class="slideshow-container nes-container is-rounded">
+        <div class="slideshow-container nes-container is-dark">
           <div class="mySlides fade">
             <img src="images/retrobanner.jpg" style="width: 100%" />
           </div>
@@ -174,48 +170,60 @@
         </div>
       </section>
 
-      <br /><br /><br />
+      <br>
       <section id="content" class="container">
-        <p>
-          The excitement of booting up a game you've always wanted to play. The
-          rush of clicking on 'New Game'. The thrill of escaping from reality
-          and living as a character that is entirely your own. The peace and
-          satisfaction on seeing the end game credits.
-        </p>
-        <br /><br /><br />
-        <p>
-          We at Spawnpoint are here to ensure those feelings never go away.
-          Spawnpoint is an online store for gamers such as yourself to fulfil
-          all your recreative needs.
-        </p>
-      </section>
+        <h2 style="text-align: center;">
+          <i class="nes-icon is-medium heart" style="font-size: 1rem;font-weight: 400;line-height: 1.5;"></i
+            ><span style="padding-left: 2px">Homepage</span>
+        </h2>
 
-      <br /><br /><br />
-      <section id="products" class="container">
-        <div class="nes-container is-rounded with-title">
-          <span class="title">Featured Products</span>
+        <br><br><br>
+        <div class="nes-container is-rounded">
+          <p>
+            The excitement of booting up a game you've always wanted to play. The
+            rush of clicking on 'New Game'. The thrill of escaping from reality
+            and living as a character that is entirely your own. The peace and
+            satisfaction on seeing the end game credits.
+          </p>
+          <br><br>
+          <p>
+            We at Spawnpoint are here to ensure those feelings never go away.
+            Spawnpoint is an online store for gamers such as yourself to fulfil
+            all your recreative needs.
+          </p>
+          <br><br>
+          <p>Pick a category or open the sidebar to continue:</p>
+
           <div class="nes-table-responsive">
-            <table class="nes-table is-bordered is-centered">
+            <table id="categories" class="nes-table is-bordered is-centered">
               <thead>
                 <tr>
-                  <th><i class="nes-icon trophy is-large"></i></th>
-                  <th></th>
+                  <th id="category-s1" class="nes-pointer">
+                    <a href="/html/shop1.html" target="_blank">
+                      PC</a>
+                  </th>
+                  <th id="category-s2" class="nes-pointer">
+                    <a href="/html/shop2.html" target="_blank">
+                      Consoles</a>
+                  </th>
+                </tr>
+                <tr>
+                  <th id="category-s3" class="nes-pointer">
+                    <a href="/html/shop3.html" target="_blank">
+                      Accessories</a>
+                  </th>
+                  <th id="category-s4" class="nes-pointer">
+                    <a href="/html/shop4.html" target="_blank">
+                      Games</a>
+                  </th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <th><i class="nes-icon trophy is-large"></i></th>
-                  <th></th>
-                </tr>
-                <tr>
-                  <th><i class="nes-icon trophy is-large"></i></th>
-                  <th></th>
-                </tr>
-              </tbody>
             </table>
           </div>
+
         </div>
       </section>
+
     </main>
 
     <footer class="u-full-width">

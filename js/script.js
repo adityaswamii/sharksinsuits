@@ -15,11 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const sideBar= document.getElementById('sidebar');
     const sideBarOpen = document.getElementById('sidebar-button-open');
     const sideBarClose = document.getElementById('sidebar-button-close');
-    const sidebarbutton= document.getElementById('sidebar-checkbox');
-
-    sidebarbutton.addEventListener('change', () => {
-      sideBar.classList.toggle('collapse');
-    });
 
     sideBarOpen.addEventListener('click', () => {
       sideBar.classList.toggle('collapse');
