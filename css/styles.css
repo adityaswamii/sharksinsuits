@@ -7,20 +7,23 @@ body {
   transition: background 0.2s linear;
 }
 
-body.dark-mode {
-  background-color: black;
-  filter: invert(1) hue-rotate(-180deg);
+.dark-mode{
+  filter: invert(1) hue-rotate(180deg);
+} 
+
+.dark-mode .nes-icon,
+.dark-mode img {
+  filter: invert(1) hue-rotate(180deg);  
 }
 
-body.dark-mode .nes-icon,
-body.dark-mode iframe,
-body.dark-mode img {
-  filter: invert(1) hue-rotate(-180deg);
+body.darkmode {
+  background-color: black;
 }
 
 header {
   z-index: 50;
   position: fixed;
+  background-attachment: fixed;
   background-color: #d7dadf;
 }
 
@@ -42,6 +45,10 @@ a.nounderline:hover {
   background-color: #212529;
   border-right: 5px solid black;
   transition: all 0.2s linear;
+}
+
+#sidebar.darkmode {
+  border-right: 5px solid white;
 }
 
 #sidebar-options {
@@ -121,7 +128,7 @@ a.nounderline:hover {
 }
 
 #categories {
-  width: 95%; 
+  width: 99%; 
   height: 69.420rem; 
   background-color: #212529;
 }
