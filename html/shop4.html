@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spawnpoint- Shop for Gamers</title>
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/skeleton.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/images/controller1.png" />
+
+    <!-- NES
+  -------------------------------------------------- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <header id="header" class="u-full-width">
+      <div class="row nes-container" style="padding: 10px; padding-bottom: 0px">
+        <div class="nine columns">
+          <a class="nounderline" href="#home">
+            <h2 class="nes-pointer">
+              <i class="nes-icon coin is-medium" ></i
+              ><span style="padding-left: 2px; color: black">SPAWNPOINT</span>
+            </h2>
+          </a>
+        </div>
+        <div class="three columns">
+          <br>
+          <label class="nes-pointer">
+            <input
+              type="checkbox"
+              class="nes-checkbox"
+              id="dark-mode-checkbox"
+            />
+            <span>DarkMode</span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section id="sidebar" class="container collapse">
+        <h2 class="nes-pointer">
+          <i class="nes-icon coin is-medium" style="font-size: 1rem;font-weight: 400;line-height: 1.5;"></i
+          ><span style="padding-left: 2px; color: white">SPAWNPOINT</span>
+        </h2>
+
+        <br>
+        <div class="nes-balloon from-left u-pull-left">
+          <p>Where would you like to go next?</p>
+        </div>
+        <br>
+
+        <div id="sidebar-button-close" class="nes-pointer">
+          <img id="sidebar-button-close-img" src="/images/button.png" width="75rem">
+        </div>
+
+        <div id="sidebar-options" class="nes-container is-rounded is-dark u-cf">
+          <strong class="nes-text is-error">
+            <!-- error and primary look good, change color w button -->
+            PICK AN OPTION:
+          </strong>
+
+          <br>
+
+          <label>
+            <a class="nounderline" href="/index.html" target="_blank">
+              <input
+                type="radio"
+                class="nes-radio is-dark"
+                name="answer-dark"
+              />
+              <span>Spawn (Homepage)</span>
+            </a>
+          </label>
+          <br />
+          <label>
+            <a class="nounderline" href="/html/shop1.html" target="_blank">
+              <input
+                type="radio"
+                class="nes-radio is-dark"
+                name="answer-dark"
+              />
+              <span>Shop- PC</span>
+            </a>
+          </label>
+          <br />
+          <label
+            ><a class="nounderline" href="/html/shop2.html" target="_blank">
+              <input
+                type="radio"
+                class="nes-radio is-dark"
+                name="answer-dark"
+              />
+              <span>Shop- Consoles</span>
+            </a>
+          </label>
+          <br />
+          <label
+            ><a class="nounderline" href="/html/shop3.html" target="_blank">
+              <input
+                type="radio"
+                class="nes-radio is-dark"
+                name="answer-dark"
+              />
+              <span>Shop- Accessories</span>
+            </a>
+          </label>
+          <br />
+          <label
+            ><a class="nounderline" href="#home">
+              <input
+                type="radio"
+                class="nes-radio is-dark"
+                name="answer-dark"
+                checked
+              />
+              <span>Shop- Games</span>
+            </a>
+          </label>
+        </div>
+      </section>
+
+      <div id="sidebar-button-open" class="nes-pointer">
+        <img id="sidebar-button-open-img" src="/images/button2.png" width="75rem">
+      </div>
+
+      <br /><br /><br /><br />
+      <section id="carousel" class="container">
+        <div class="slideshow-container nes-container is-dark">
+          <div class="mySlides fade">
+            <img src="/images/banner1.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner2.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner3.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner5.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner6.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="/images/banner7.jpg" style="width: 100%" />
+          </div>
+        </div>
+        <br />
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <br>
+      <section id="content" class="container">
+        <h2 style="text-align: center;">
+          <i class="nes-icon is-small nes-mario" style="font-size: 1rem;font-weight: 400;line-height: 1.5;"></i
+            ><span style="padding-left: 10px">Browse 'Games'</span><i 
+            class="nes-icon is-small nes-kirby" style="font-size: 1rem;font-weight: 400;line-height: 1.5;"></i>
+        </h2>
+
+        <br><br><br>
+        <div class="nes-container is-rounded">
+          <p>
+            Browse our collection of games and see if you find something you like!
+          </p>
+          <br><br>
+          <p>Games (9):</p>
+
+          <div class="nes-table-responsive">
+            <table id="products" class="nes-table is-dark is-bordered is-centered">
+              <thead>
+                <tr>
+                  <th class=" product">
+                    <img src="/images/acvalhalla.jpg" height="70%"><br><br>
+                    <h6>Assassin's Creed Valhalla</h6>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/codvanguard.jpg" height="70%"><br><br>
+                    <h6>Call of Duty: Vanguard</h6>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/farcry6.jpg" height="70%"><br><br>
+                    <h6>Far Cry 6 </h6><br>
+                  </th>
+                </tr>
+                <tr>
+                  <th class=" product">
+                    <img src="/images/forzahorizon4.jpg" height="70%"><br><br>
+                    <h6>Forza Horizon 4</h6>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/gtav.jpg" height="70%"><br><br>
+                    <h6>Grand Theft Auto V</h6>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/haloinfinite.jpg" height="70%"><br><br>
+                    <h6>Halo Infinite</h6>
+                  </th>
+                </tr>
+                <tr>
+                  <th class=" product">
+                    <img src="/images/minecraft.jpg" height="70%"><br><br>
+                    <h6>Minecraft</h6><br><br>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/nfsheat.jpg" height="70%"><br><br>
+                    <h6>Need For Speed Heat</h6><br>
+                  </th>
+                  <th class=" product">
+                    <img src="/images/r6extraction.jpg" height="70%"><br><br>
+                    <h6>Tom Clancy's Rainbow Six Extraction</h6>
+                  </th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer" class="u-full-width">
+      <div class="nes-container is-dark is-centered">
+        Created by Team SharksinSuits
+      </div>
+      <!-- JS (Linked at the end to speed up page loading)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="/js/script.js"></script>
+    </footer>
+  </body>
+</html>
