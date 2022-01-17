@@ -6,19 +6,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkbox= document.getElementById('dark-mode-checkbox');
 
     checkbox.addEventListener('change', () => {
-        document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('dark-mode');
     });
 
 
 // SIDEBAR
 
-    const sidebarbutton= document.getElementById('sidebar-checkbox');
     const sideBar= document.getElementById('sidebar');
+    const sideBarOpen = document.getElementById('sidebar-button-open');
+    const sideBarClose = document.getElementById('sidebar-button-close');
+    const sidebarbutton= document.getElementById('sidebar-checkbox');
 
     sidebarbutton.addEventListener('change', () => {
-        sideBar.classList.toggle('collapse');
+      sideBar.classList.toggle('collapse');
     });
 
+    sideBarOpen.addEventListener('click', () => {
+      sideBar.classList.toggle('collapse');
+    });
+    sideBarClose.addEventListener('click', () => {
+      sideBar.classList.toggle('collapse');
+    });
     
 
 
