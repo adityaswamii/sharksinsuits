@@ -1,6 +1,20 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+// DISCLAIMER DIALOG
+
+    
+    // const discDialogButton= document.getElementById('disclaimerButton');
+    // const discDialog = document.getElementById('disclaimerDialog');
+    // const discDialogClose = document.getElementById('disclaimerClose');
+
+    // discDialogButton.addEventListener('click', () => {
+    //   discDialog.classList.add(' active');
+    // });
+    // discDialogClose.addEventListener('click', () => {
+    //   discDialog.classList.remove(' active');
+    // });
+
 // DARK-MODE
 
     var x=1;
