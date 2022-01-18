@@ -213,7 +213,7 @@ a.nounderline:hover {
 .product {
   display: table-cell;
   text-align: center;
-  height: 45rem;
+  width: 20rem;
 }
 
 .product img {
